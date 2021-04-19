@@ -1,0 +1,3 @@
+include ':test-viewmodel'
+include ':app'
+rootProject.name = "JetpackTest"
