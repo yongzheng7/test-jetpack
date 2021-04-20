@@ -52,7 +52,7 @@
         android:id="@+id/live_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="170dp"
         android:layout_marginStart="20dp"
         android:text="Live Data"
         android:textSize="24sp"
@@ -73,7 +73,7 @@
         android:id="@+id/data_binding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:text="Data Binding"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="@+id/live_data"
@@ -98,5 +98,16 @@
         app:layout_constraintLeft_toLeftOf="@+id/data_binding"
         android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"/>
+
+
+    <TextView
+        android:id="@+id/room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Room"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/data_binding"
+        app:layout_constraintTop_toBottomOf="@+id/data_binding" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

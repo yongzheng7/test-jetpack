@@ -1,3 +1,4 @@
+include ':test-room'
 include ':test-databinding'
 include ':test-livedata'
 include ':test-viewmodel'
