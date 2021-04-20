@@ -48,4 +48,55 @@
         app:layout_constraintLeft_toLeftOf="@+id/test_view_model"
         android:layout_marginTop="5dp" />
 
+    <TextView
+        android:id="@+id/live_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        android:text="Live Data"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/show"
+        app:layout_constraintTop_toBottomOf="@+id/show" />
+
+    <Button
+        android:id="@+id/test_live_data"
+        android:text="live_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/live_data"
+        app:layout_constraintLeft_toLeftOf="@+id/live_data"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/data_binding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Data Binding"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/live_data"
+        app:layout_constraintTop_toBottomOf="@+id/live_data" />
+
+    <Button
+        android:id="@+id/test_data_binding"
+        android:text="test_data_binding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/data_binding"
+        app:layout_constraintLeft_toLeftOf="@+id/data_binding"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/user_data_binding"
+        android:text="user_data_binding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/test_data_binding"
+        app:layout_constraintLeft_toLeftOf="@+id/data_binding"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

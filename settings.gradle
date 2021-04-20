@@ -1,3 +1,5 @@
+include ':test-databinding'
+include ':test-livedata'
 include ':test-viewmodel'
 include ':app'
 rootProject.name = "JetpackTest"
