@@ -50,4 +50,5 @@ dependencies {
     implementation project(':test-viewmodel')
     implementation project(':test-livedata')
     implementation project(':test-databinding')
+    implementation project(':test-room')
 }

@@ -3,8 +3,9 @@ package com.atom.app
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
+import android.widget.TextView
+import com.atom.module.app.WordActivity
 import com.atom.module.databinding.DataBindingActivity
 import com.atom.module.databinding.simple.UserDataBindingActivity
 import com.atom.module.livedata.LiveViewActivity
@@ -30,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.user_data_binding).setOnClickListener {
             startActivity(Intent(MainActivity@this , UserDataBindingActivity::class.java))
+        }
+        findViewById<Button>(R.id.test_room).setOnClickListener {
+            startActivity(Intent(MainActivity@this , WordActivity::class.java))
         }
     }
 }

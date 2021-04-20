@@ -110,4 +110,15 @@
         app:layout_constraintLeft_toLeftOf="@+id/data_binding"
         app:layout_constraintTop_toBottomOf="@+id/data_binding" />
 
+
+    <Button
+        android:id="@+id/test_room"
+        android:text="test room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/room"
+        app:layout_constraintLeft_toLeftOf="@+id/room"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
