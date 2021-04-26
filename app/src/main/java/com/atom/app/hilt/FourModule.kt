@@ -7,7 +7,7 @@ import dagger.hilt.android.components.ActivityComponent
 
 @Module
 @InstallIn(ActivityComponent::class)
-class FourModule {
+object FourModule {
 
     @Provides
     fun providerAdapter() : FourAdapter = FourAdapter()

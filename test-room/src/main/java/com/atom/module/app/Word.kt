@@ -5,12 +5,17 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "word_table")
-data class Word(
-
-    @ColumnInfo(name = "word")
-    val word: String,
+class Word : Txt{
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
     val id: Int
-)
+
+    @ColumnInfo(name = "word")
+    val word: String
+
+    constructor(word: String, id: Int) : super() {
+        this.word = word
+        this.id = id
+    }
+}

@@ -1,6 +1,7 @@
 package com.atom.module.app
 
 import android.content.Context
+import android.os.Environment
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
@@ -53,7 +54,7 @@ abstract class WordRoomDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     WordRoomDatabase::class.java,
-                    "word_database"
+                    Environment.getExternalStorageDirectory().absolutePath + "/.com.wyz.room/word_database"
                 ).build()
                 INSTANCE = instance
                 // return instance

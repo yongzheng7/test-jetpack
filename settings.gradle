@@ -1,3 +1,4 @@
+include ':test-workmanager'
 include ':module-utils'
 include ':test-hilt'
 include ':test-coroutine'
