@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
+import com.atom.app.hilt.FirstAdapter
 import com.atom.module.app.WordActivity
 import com.atom.module.databinding.DataBindingActivity
 import com.atom.module.databinding.simple.UserDataBindingActivity
@@ -18,7 +18,7 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     @Inject
-    lateinit var adapter : SimpleAdapter
+    lateinit var adapter : FirstAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
