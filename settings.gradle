@@ -1,3 +1,6 @@
+include ':module-utils'
+include ':test-hilt'
+include ':test-coroutine'
 include ':test-room'
 include ':test-databinding'
 include ':test-livedata'

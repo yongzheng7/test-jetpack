@@ -56,4 +56,5 @@ dependencies {
     implementation project(':test-livedata')
     implementation project(':test-databinding')
     implementation project(':test-room')
+    implementation project(':module-utils')
 }

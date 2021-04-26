@@ -14,7 +14,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/module-utils" />
+            <option value="$PROJECT_DIR$/test-coroutine" />
             <option value="$PROJECT_DIR$/test-databinding" />
+            <option value="$PROJECT_DIR$/test-hilt" />
             <option value="$PROJECT_DIR$/test-livedata" />
             <option value="$PROJECT_DIR$/test-room" />
             <option value="$PROJECT_DIR$/test-viewmodel" />
