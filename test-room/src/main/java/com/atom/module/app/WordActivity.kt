@@ -30,8 +30,11 @@ class WordActivity : AppCompatActivity() {
         this.lifecycle.addObserver(wordViewModel)
         val fab = findViewById<FloatingActionButton>(R.id.fab)
         fab.setOnClickListener {
-            val intent = Intent(this@WordActivity, NewWordActivity::class.java)
-            startActivityForResult(intent, newWordActivityRequestCode)
+//            val intent = Intent(this@WordActivity, NewWordActivity::class.java)
+//            startActivityForResult(intent, newWordActivityRequestCode)
+            val nextInt = Random().nextInt()
+            val word = Word("test_$nextInt" , nextInt)
+            wordViewModel.insert(word)
         }
     }
 
